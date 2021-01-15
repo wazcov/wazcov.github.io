@@ -3,7 +3,7 @@ layout: post
 title: Raspberry Pi 400 Stealth Edition
 ---
 
-#The Raspberry Pi 400, Stealth Edition. 
+The Raspberry Pi 400, Stealth Edition. 
 
 Featuring an all matt-black body for an ultimate professional look.
 
@@ -20,6 +20,8 @@ Are you a 1337 hacker? A night time coder or tinkerer of gadgets? Then the Pi 40
 Available literally nowhere, because… I built it myself.
 
 So yeah I built this thing. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of7-7RTLeqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Why did I do it? 
 
