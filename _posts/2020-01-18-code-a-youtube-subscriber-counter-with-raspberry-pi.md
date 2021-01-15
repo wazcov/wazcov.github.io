@@ -4,8 +4,6 @@ title: Code A YouTube Subscriber Counter With Raspberry Pi
 date: 2020-01-18T17:26:20+00:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=1335
-permalink: /?p=1335
 ---
 What better feature for the background in your new YouTube videos than a live updating subscriber counter? Well now you can build one for just a few dollars/pounds!
 

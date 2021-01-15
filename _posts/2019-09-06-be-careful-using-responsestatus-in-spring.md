@@ -4,8 +4,6 @@ title: Be careful using @ResponseStatus in Spring
 date: 2019-09-06T04:23:13+01:00
 author: waz
 layout: post
-guid: http://devscover.com/?p=7
-permalink: /?p=7
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/4k-wallpaper-art-background-1657151-600x800.jpg

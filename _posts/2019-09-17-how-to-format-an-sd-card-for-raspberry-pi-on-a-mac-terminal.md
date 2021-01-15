@@ -4,8 +4,6 @@ title: How Install Raspbian On An SD For Raspberry Pi Using A Mac Terminal
 date: 2019-09-17T07:34:17+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=171
-permalink: /?p=171
 image: /wp-content/uploads/2019/09/capacitors-chip-circuit-board-57007-scaled.jpg
 ---
 Ever had trouble writing an .img file to an SD card for your Raspberry Pi? Here&#8217;s how to do it without installing any other programs.

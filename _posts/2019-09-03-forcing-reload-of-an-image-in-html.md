@@ -4,8 +4,6 @@ title: Forcing reload of an image in HTML
 date: 2019-09-03T07:58:30+01:00
 author: waz
 layout: post
-guid: http://devscover.com/?p=11
-permalink: /?p=11
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/art-background-blocks-1093914-600x800.jpg

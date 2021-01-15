@@ -4,8 +4,6 @@ title: 'Creating A Scrabble Word Finder With Python &#038; Raspberry Pi'
 date: 2020-06-15T16:36:30+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=3437
-permalink: /?p=3437
 image: /wp-content/uploads/2020/06/thumbnail-scaled.jpg
 ---
 ### So you want some help beating your friends or family at Scrabble? Well this may be the answer. {#intro}

@@ -4,8 +4,6 @@ title: Stop Idolising Fast Coders
 date: 2019-09-04T06:04:13+01:00
 author: waz
 layout: post
-guid: http://devscover.com/?p=92
-permalink: /?p=92
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/coder-600x800.jpeg

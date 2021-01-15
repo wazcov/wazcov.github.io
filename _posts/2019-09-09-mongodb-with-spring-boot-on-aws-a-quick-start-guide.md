@@ -4,8 +4,6 @@ title: 'MongoDB with Spring Boot on AWS: A quick-start guide*'
 date: 2019-09-09T07:40:38+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=111
-permalink: /?p=111
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/aws-mongo-spring.png

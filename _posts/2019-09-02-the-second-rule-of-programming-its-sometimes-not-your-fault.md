@@ -4,8 +4,6 @@ title: 'The Second Rule of Programming: It’s sometimes not your fault'
 date: 2019-09-02T18:55:22+01:00
 author: waz
 layout: post
-guid: http://devscover.com/?p=13
-permalink: /?p=13
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/apple-businesswoman-coding-7375-600x800.jpg

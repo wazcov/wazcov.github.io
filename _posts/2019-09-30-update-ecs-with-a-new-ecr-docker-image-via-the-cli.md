@@ -4,8 +4,6 @@ title: Update ECS with a new ECR Docker image via the CLI
 date: 2019-09-30T14:47:54+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=196
-permalink: /?p=196
 image: /wp-content/uploads/2019/09/cargo-container-commerce-commercial-906494-scaled.jpg
 ---
 So you have an ECS cluster running with an image on ECR. Want to update the image that cluster is running via the CLI? Here&#8217;s how you do it:

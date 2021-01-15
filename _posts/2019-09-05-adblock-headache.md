@@ -4,8 +4,6 @@ title: My Adblock Headache Story
 date: 2019-09-05T11:25:02+01:00
 author: waz
 layout: post
-guid: http://devscover.com/?p=9
-permalink: /?p=9
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/design-desk-eyewear-313690-600x800.jpg

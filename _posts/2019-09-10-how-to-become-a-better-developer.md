@@ -4,8 +4,6 @@ title: How To Become A Better Developer
 date: 2019-09-10T08:33:58+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=114
-permalink: /?p=114
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/startup-594091_1920.jpg

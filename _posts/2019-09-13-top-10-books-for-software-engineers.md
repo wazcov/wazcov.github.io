@@ -4,8 +4,6 @@ title: Top 10 Books For Software Engineers
 date: 2019-09-13T16:55:49+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=147
-permalink: /?p=147
 image: /wp-content/uploads/2019/09/blur-books-bookstore-2899916-scaled.jpg
 ---
 So you want to improve as a Software Engineer? There are plenty of blogs and tutorials online, but they often lack the depth of understanding that you can get from a real book.&nbsp;

@@ -4,8 +4,6 @@ title: 'Java, JS &#038; Python &#8211; Pass By Value Or Reference?'
 date: 2019-12-15T20:24:49+00:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=425
-permalink: /?p=425
 ---
 Lets take 3 of the top languages and look if they are pass-by-value or pass-by-reference
 

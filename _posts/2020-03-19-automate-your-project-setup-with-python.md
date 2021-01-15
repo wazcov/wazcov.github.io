@@ -4,8 +4,6 @@ title: Automate Your Project Setup With Python
 date: 2020-03-19T21:16:45+00:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=2553
-permalink: /?p=2553
 ---
 First you need to alter your startup script. On Linux and older Mac OSs this is ~/.bashrc, however on Mac OS Catalina this may be ~/.zshrc.
 

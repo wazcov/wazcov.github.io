@@ -4,8 +4,6 @@ title: The best IntelliJ IDEA keyboard shortcuts for Mac
 date: 2020-06-17T13:18:41+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=3442
-permalink: /?p=3442
 image: /wp-content/uploads/2020/06/Untitled-design.jpg
 ---
 IntelliJ IDEA is one of my favourite IDEs, and a key reason for that is the great shortcuts that makes my life easier when developing software. 

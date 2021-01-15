@@ -4,8 +4,6 @@ title: Encryption And Hashing Fundamentals
 date: 2020-04-28T16:45:04+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=3418
-permalink: /?p=3418
 image: /wp-content/uploads/2020/04/ransomware-2321110_960_720.jpg
 ---
  

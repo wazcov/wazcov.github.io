@@ -4,8 +4,6 @@ title: Reduce Your Redundant Commits With Git
 date: 2019-09-16T12:47:57+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=166
-permalink: /?p=166
 image: /wp-content/uploads/2019/09/git-logo.png
 ---
 ## How to reduce commits using Git CLI

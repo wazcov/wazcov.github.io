@@ -4,8 +4,6 @@ title: 'Connecting AWS S3 with Snowflake: SnowPipe Auto-Ingest'
 date: 2019-09-06T14:22:13+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=123
-permalink: /?p=123
 fabulist-selected-sidebar:
   - sidebar-1
 image: /wp-content/uploads/2019/09/Snowflake-600x650.jpeg

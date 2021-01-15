@@ -4,8 +4,6 @@ title: Extend Your EC2 Storage Volume Size
 date: 2019-12-06T11:49:19+00:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=216
-permalink: /?p=216
 image: /wp-content/uploads/2019/12/Screenshot-2019-12-06-at-11.30.21.png
 ---
 So you&#8217;ve created an EC2 but not given it enough storage. Now you&#8217;ve run out and are wondering how you change it.<figure class="wp-block-image size-large is-resized">

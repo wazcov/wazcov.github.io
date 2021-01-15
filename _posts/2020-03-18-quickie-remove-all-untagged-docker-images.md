@@ -4,8 +4,6 @@ title: 'Quickie: Remove All Untagged Docker Images'
 date: 2020-03-18T12:57:21+00:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=2554
-permalink: /?p=2554
 image: /wp-content/uploads/2020/03/dockertaghero.jpg
 ---
 Here&#8217;s a quick one regarding deleting all untagged docker images. This occurred when `docker image prune` wasn&#8217;t deleting all the unused images I had. 
