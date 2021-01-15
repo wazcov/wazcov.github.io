@@ -4,8 +4,6 @@ title: 'Why the Fornite &#8211; Apple war is BIGGER than you think!'
 date: 2020-08-15T17:43:21+01:00
 author: waz
 layout: post
-guid: https://devscover.com/?p=3446
-permalink: /?p=3446
 image: /wp-content/uploads/2020/08/fortnite.png
 ---
 So I don’t usually cover news type topics but this recent development is huge, much bigger than most people think so I had to make a video on it. It revolves around Apple and Google banning on the most popular games in the world, Fortnite. But this has much bigger implications than&nbsp; just for that one game, and here I’ll break it down for you.
