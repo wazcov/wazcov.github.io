@@ -16,6 +16,8 @@ Using just a bit of Python code, running on a Raspberry Pi with a HQ Camera Modu
 
 Here&#8217;s the video I made for my Devscover YouTube Channel:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gcsv1fnDZzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Gathering Components {#gathering-components}
 
 First you are going to want to gather all your components. Note the High Quality camera isn&#8217;t essential, you can use the older camera modules for Raspberry Pi. The advantage this new one gives you, is that it has a really good depth of field, so you can have your tiles in focus while the background is blurry.

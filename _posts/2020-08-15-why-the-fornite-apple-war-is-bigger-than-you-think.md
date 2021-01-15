@@ -22,6 +22,8 @@ The latest controversy kicked off when Epic implemented a “permanent discount�
 
 Obviously Apple almost instantaneously kicked Fortnite off the App Store, and Google followed suit a little while later.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXXqlCyQ61c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Why is this so big?**
 
 Well it’s not just Fortnite that have complained about this 30% fee, which they see as a Monopoly &#8211; many other developers have been annoyed by it. But none have tried taking Apple or Google to war over it.
