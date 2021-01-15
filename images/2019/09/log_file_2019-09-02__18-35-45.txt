@@ -1,0 +1,42 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://waynecovell.co.uk
+Data file = /var/sites/w/waynecovell.co.uk/public_html/wp-content/uploads/2019/09/fabulist-all-content.xml
+Widget file = /var/sites/w/waynecovell.co.uk/public_html/wp-content/uploads/2019/09/fabulist-widgets.wie
+Customizer file = /var/sites/w/waynecovell.co.uk/public_html/wp-content/uploads/2019/09/fabulist-customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Categories - No Title - Imported
+
+Footer Widget 1 : 
+
+Text - Fabulist - Imported
+
+Footer Widget 2 : 
+
+Recent Posts - No Title - Imported
+
+Footer Widget 3 : 
+
+Categories - No Title - Imported
+
+Footer Widget 4 : 
+
+Gallery - Gallery - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
