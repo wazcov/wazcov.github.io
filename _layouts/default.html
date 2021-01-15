@@ -9,10 +9,11 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
@@ -28,14 +29,24 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/shop">Shop</a>
+            <a href="{{ site.baseurl }}/skills">Skills</a>
+            <a href="{{ site.baseurl }}/podcast">Podcast</a>
+            <a href="{{ site.baseurl }}/speaking">Speaking</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <div class="row no-gutters">
+        <div class="col-sm-6">
+          {{ content }}
+        </div>
+        <div class="col-sm-6">
+          {% include svg-icons.html %}
+        </div>
+      </div>
     </div>
 
     <div class="wrapper-footer">
