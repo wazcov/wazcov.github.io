@@ -8,7 +8,8 @@ image: https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2
 ---
 Thinking of learning to code in 2020? Watch this video from Devscover's Wayne about the best ways to learn
 
-
+<iframe width="350" src="https://www.youtube.com/embed/gOiYQLhj4u0" frameborder="0" allow="accelerometer; 
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Liked the video? To keep learning, don&#8217;t forget to [**subscribe**](https://www.youtube.com/c/Devscover?sub_confirmation=1)!
