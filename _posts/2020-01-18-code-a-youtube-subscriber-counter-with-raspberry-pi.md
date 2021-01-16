@@ -17,7 +17,7 @@ What better feature for the background in your new YouTube videos than a live up
 
 ## Connect It Up:<figure class="wp-block-image size-large">
 
-<img loading="lazy" width="1024" height="768" src="https://devscover.com/wp-content/uploads/2020/01/pi_max72199.jpg" alt="" class="wp-image-1510" srcset="http://localhost:8080/wp-content/uploads/2020/01/pi_max72199.jpg 1024w, http://localhost:8080/wp-content/uploads/2020/01/pi_max72199-300x225.jpg 300w, http://localhost:8080/wp-content/uploads/2020/01/pi_max72199-768x576.jpg 768w, http://localhost:8080/wp-content/uploads/2020/01/pi_max72199-600x450.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img loading="lazy" width="1024" height="768" src="https://devscover.com/wp-content/uploads/2020/01/pi_max72199.jpg" alt="" class="wp-image-1510" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199.jpg 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-300x225.jpg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-768x576.jpg 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-600x450.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 ## Steps:
 

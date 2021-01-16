@@ -42,7 +42,7 @@ We now no longer return a boolean from a method but instead it just does one thi
 This code could surely be improved yet again, but just with a minute or two of extra typing, and more importantly thinking, this code is much more readable and maintainable.
 
 <div class="wp-block-image">
-  <figure class="aligncenter"><img loading="lazy" width="1024" height="682" src="http://devscover.com/wp-content/uploads/2019/09/coder-1024x682.jpeg" alt="" class="wp-image-93" srcset="http://localhost:8080/wp-content/uploads/2019/09/coder-1024x682.jpeg 1024w, http://localhost:8080/wp-content/uploads/2019/09/coder-600x400.jpeg 600w, http://localhost:8080/wp-content/uploads/2019/09/coder-300x200.jpeg 300w, http://localhost:8080/wp-content/uploads/2019/09/coder-768x512.jpeg 768w, http://localhost:8080/wp-content/uploads/2019/09/coder.jpeg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+  <figure class="aligncenter"><img loading="lazy" width="1024" height="682" src="http://devscover.com/wp-content/uploads/2019/09/coder-1024x682.jpeg" alt="" class="wp-image-93" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-1024x682.jpeg 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-600x400.jpeg 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-300x200.jpeg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-768x512.jpeg 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder.jpeg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 
 ## It’s Like Writing A Book {#b458}

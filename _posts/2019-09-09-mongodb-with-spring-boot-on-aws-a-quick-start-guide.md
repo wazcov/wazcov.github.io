@@ -111,7 +111,7 @@ This step is going to be specific to your Spring Boot application, but in most c
 
 You can find your EC2 public DNS address in AWS easily in a number of places:<figure class="wp-block-image">
 
-<img loading="lazy" width="1024" height="193" src="https://devscover.com/wp-content/uploads/2019/09/aws-1024x193.png" alt="" class="wp-image-132" srcset="http://localhost:8080/wp-content/uploads/2019/09/aws-1024x193.png 1024w, http://localhost:8080/wp-content/uploads/2019/09/aws-600x113.png 600w, http://localhost:8080/wp-content/uploads/2019/09/aws-300x57.png 300w, http://localhost:8080/wp-content/uploads/2019/09/aws-768x145.png 768w, http://localhost:8080/wp-content/uploads/2019/09/aws.png 1444w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img loading="lazy" width="1024" height="193" src="https://devscover.com/wp-content/uploads/2019/09/aws-1024x193.png" alt="" class="wp-image-132" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/aws-1024x193.png 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/aws-600x113.png 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/aws-300x57.png 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/aws-768x145.png 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/aws.png 1444w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 Run your app, and check you get results.
 

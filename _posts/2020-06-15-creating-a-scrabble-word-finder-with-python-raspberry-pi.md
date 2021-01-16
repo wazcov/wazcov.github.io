@@ -10,7 +10,7 @@ image: /wp-content/uploads/2020/06/thumbnail-scaled.jpg
 
 Using just a bit of Python code, running on a Raspberry Pi with a HQ Camera Module, you can read your scrabble tiles, and have a display show you the top highest scoring words that you could play.<figure class="wp-block-image size-large">
 
-<img loading="lazy" width="640" height="446" src="https://devscover.com/wp-content/uploads/2020/06/IMG_2678.jpeg" alt="Raspberry Pi Touchscreen Showing Scrabble Words & Scores" class="wp-image-3435" srcset="http://localhost:8080/wp-content/uploads/2020/06/IMG_2678.jpeg 640w, http://localhost:8080/wp-content/uploads/2020/06/IMG_2678-300x209.jpeg 300w, http://localhost:8080/wp-content/uploads/2020/06/IMG_2678-600x418.jpeg 600w" sizes="(max-width: 640px) 100vw, 640px" /> <figcaption>Raspberry Pi Touchscreen Showing Scrabble Words & Scores</figcaption></figure> 
+<img loading="lazy" width="640" height="446" src="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/06/IMG_2678.jpeg" alt="Raspberry Pi Touchscreen Showing Scrabble Words & Scores" class="wp-image-3435" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/06/IMG_2678.jpeg 640w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/06/IMG_2678-300x209.jpeg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/06/IMG_2678-600x418.jpeg 600w" sizes="(max-width: 640px) 100vw, 640px" /> <figcaption>Raspberry Pi Touchscreen Showing Scrabble Words & Scores</figcaption></figure> 
 
 ### Video Tutorial {#video-tutorial}
 
