@@ -15,9 +15,9 @@ What better feature for the background in your new YouTube videos than a live up
 
 [Raspberry Pi 4](https://www.amazon.co.uk/gp/product/B07TC2BK1X/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07TC2BK1X&linkCode=as2&tag=wazcov09-21&linkId=649310f6c7dd402b7563ec09b54bac99) or cheaper [Raspberry Pi 3](https://www.amazon.co.uk/gp/product/B07BDR5PDW/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B07BDR5PDW&linkCode=as2&tag=wazcov09-21&linkId=33f13995d4f62d45611ef803268b7268)
 
-## Connect It Up:<figure class="wp-block-image size-large">
+## Connect It Up:
 
-<img loading="lazy" width="1024" height="768" src="https://devscover.com/wp-content/uploads/2020/01/pi_max72199.jpg" alt="" class="wp-image-1510" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199.jpg 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-300x225.jpg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-768x576.jpg 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-600x450.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img loading="lazy" width="1024" height="768" src="https://devscover.com/wp-content/uploads/2020/01/pi_max72199.jpg" alt="" class="wp-image-1510" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199.jpg 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-300x225.jpg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-768x576.jpg 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2020/01/pi_max72199-600x450.jpg" /> 
 
 ## Steps:
 

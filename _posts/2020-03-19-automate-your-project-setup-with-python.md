@@ -60,5 +60,4 @@ You can get your GitHub access token from Github settings <https://github.com/se
 
 You can also view a video of this tutorial here<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-<div class="wp-block-embed__wrapper">
-</div></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BS5kRwW1FLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
