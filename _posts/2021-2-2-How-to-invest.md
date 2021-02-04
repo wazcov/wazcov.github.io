@@ -3,9 +3,6 @@ layout: post
 title: How to get started investing
 ---
 
-# How to get started investing
-
-
 If you’ve never invested before it can be dawnting. I remember the first time someone told me they invested in stocks and shares and I was so confused, like where do you go to do that, do you go to a bank? Who decides where to invest? Do you need hundreds of thousands to start?
 
 Well it turns out, these days, it’s not as complicated as it seems, so I’m going to break it down for you.
@@ -67,7 +64,9 @@ Now on the one hand these commission free apps are great because it means people
 ## Is That It?
 Well that is a really simplified version of the stock market. There’s many more things to talk about such as Spread, Shorts, Day Trading, Tax, Share Classes, Stock Splits and loads more terminology and technical details. If those things interest you, let me know in the comments below and I’ll make some more in depth videos.
 
-But for now I hope that video helped you learn a bit about investing and how to get started .
+But for now I hope this helped you learn a bit about investing and how to get started.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hqGt9Xtgs_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
