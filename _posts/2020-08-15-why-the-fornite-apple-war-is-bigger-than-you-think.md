@@ -10,7 +10,7 @@ So I don’t usually cover news type topics but this recent development is huge,
 
 If you&#8217;d like to see the video breakdown, check it out here:
 
-**So what happened?**
+##So what happened?
 
 Well since the first days of iPhone and Android, both Apple and Google respectively put a number of restrictions on apps being developed for their devices, which they claim is for safety and keeping good quality apps on their stores.
 
@@ -24,7 +24,7 @@ Obviously Apple almost instantaneously kicked Fortnite off the App Store, and Go
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bXXqlCyQ61c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Why is this so big?**
+## Why is this so big?
 
 Well it’s not just Fortnite that have complained about this 30% fee, which they see as a Monopoly &#8211; many other developers have been annoyed by it. But none have tried taking Apple or Google to war over it.
 
@@ -40,7 +40,7 @@ Epic Games claim “Apple has become what it once railed against: the behemoth s
 
 This is probably due to two factors, firstly Google have essentially copied all Apple did with their App Store, so Apple really set the precedent here. Secondly it is possible to side load apps on to Android without using the Play store, as Google call it an “Open Ecosystem” &#8211; Although the majority of people won’t know how or want to do this. Apple are a lot stricter about the use of their App Store.
 
-**So what if Fortnite wins? Well if it does, this is huge news for Software Developers..**
+## So what if Fortnite wins? Well if it does, this is huge news for Software Developers..
 
 Forrtnite must expect to win any lawsuits, else they wouldn’t risk all the lost income during the time when players can’t play the game. At a $17BN valuation, they can afford to take on Apple though, and winning might mean Apple cutting that 30% fee or even having to allow other payment options. This would mean that smaller developers or game studios, putting out apps that just generate a side income or perhaps fund their small business would suddenly see a jump in income.
 

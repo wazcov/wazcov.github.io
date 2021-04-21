@@ -1,4 +1,4 @@
-[Done] Income Ideas
+Income Ideas
 
 So one of my most popular videos on this channel has been income ideas for programmers. It’s gathered over 100k views which is huge for a channel that right now has 5k subscribers!
 
@@ -30,8 +30,9 @@ So that’s the income streams that I am using in 2021, but what are the other o
 One thing I would like to invest in but I just don’t have the capital is real estate. I recently was lucky enough to be able to take out a mortgage on a house which means I’m no longer paying rent, ideally I’d like to have another place I could rent out but it’s probably going to be some years before I’m able to do that.
 
 ## Digital Products
-Also my favourite ideas that I think has huge opportunities to grow in 2021 is digital products. We’ve all seen Traf sell his black iPhone icons and make hundreds of thousands, we also have people like Matti Hapooja selling his video luts, Ali Abdaal switching from being a Dr to Youtuber and producing a course about how to become said youtuber.
-- 
+Also my favourite ideas that I think has huge opportunities to grow in 2021 is digital products. We’ve all seen Traf 
+sell his black iPhone icons and make hundreds of thousands, we also have people like Matti Hapooja selling his video 
+luts, Ali Abdaal switching from being a Dr to Youtuber and producing a course about how to become said YouTuber.
 
 ## My Plans
 So what’s my plan for 2021? To diversify my income streams, and what’s my goal? To quit my full time job and work on my side hustles full time.

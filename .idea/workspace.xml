@@ -23,10 +23,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
@@ -45,7 +48,9 @@
       <workItem from="1612179783856" duration="33000" />
       <workItem from="1612301733942" duration="229000" />
       <workItem from="1612344582582" duration="68000" />
-      <workItem from="1612448613513" duration="314000" />
+      <workItem from="1612448613513" duration="608000" />
+      <workItem from="1615488529692" duration="212000" />
+      <workItem from="1619033879006" duration="485000" />
     </task>
     <servers />
   </component>
