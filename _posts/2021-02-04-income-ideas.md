@@ -1,4 +1,4 @@
-Income Ideas
+Income Ideas - Earn more, work less
 
 So one of my most popular videos on this channel has been income ideas for programmers. It’s gathered over 100k views which is huge for a channel that right now has 5k subscribers!
 
