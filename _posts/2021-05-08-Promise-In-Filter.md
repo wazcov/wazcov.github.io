@@ -2,9 +2,6 @@
 title: How To Use Promise In Filters With JavaScript
 author: waz
 layout: post
-fabulist-selected-sidebar:
-- sidebar-1
-  image: /wp-content/uploads/2019/09/coder-600x800.jpeg
 ---
 
 So you're coding some JavaScript and you've learned about Asynchronous Promises, then some sorts and filters, but 
