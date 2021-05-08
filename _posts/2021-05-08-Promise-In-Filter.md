@@ -1,3 +1,12 @@
+---
+title: How To Use Promise In Filters With JavaScript
+author: waz
+layout: post
+fabulist-selected-sidebar:
+- sidebar-1
+  image: /wp-content/uploads/2019/09/coder-600x800.jpeg
+---
+
 So you're coding some JavaScript and you've learned about Asynchronous Promises, then some sorts and filters, but 
 you've tried to combine the two and got stuck. If you search around, you'll find a lot of people saying you simply 
 can't use Promises in filters. That's mostly true, but with some clever coding you can get it to work. This is how.
