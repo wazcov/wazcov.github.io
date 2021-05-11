@@ -32,54 +32,68 @@ If you’re on Windows, install Putty. If your on a Linux PC or a Mac, you can j
 
 First you want to create a file so you can install mongo with yum. Run this:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">sudo vim /etc/yum.repos.d/mongodb-org-3.6.rep</code></pre>
+```
+sudo vim /etc/yum.repos.d/mongodb-org-3.6.rep
+```
 
 and in it, you need this:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">[mongodb-org-3.6]
+```
+[mongodb-org-3.6]
 name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/
 gpgcheck=1
 enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc</code></pre>
+gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
+```
 
 You can now easily run yum to install mongo:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">sudo yum install -y mongodb-org</code></pre>
+```sudo yum install -y mongodb-org```
 
 You can then start mongo with this command:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">sudo service mongod start</code></pre>
+```sudo service mongod start```
 
 You can confirm it’s running by checking the logs:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">sudo cat /var/log/mongodb/mongod.log</code></pre>
+```sudo cat /var/log/mongodb/mongod.log```
 
 You’re looking for a line like
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">[initandlisten] waiting for connections on port &lt;port></code></pre>
+```
+[initandlisten] waiting for connections on port &lt;port>
+```
 
 and I’d really recommend making sure mongo starts up when the server starts (incase of a power outage or a restart)
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">sudo chkconfig mongod on</code></pre>
+```
+sudo chkconfig mongod on
+```
 
 ## Open a mongo session on the command line {#d94e}
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">mongo</code></pre>
+```
+mongo
+```
 
 _(Who’d have guessed!)_
 
 ## Create a database {#5f24}
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">use mycustom_db</code></pre>
+```
+use mycustom_db
+```
 
 ## Create a user {#4b7c}
 
-<pre class="wp-block-code"><code lang="json" class="language-json line-numbers">db.createUser({
+```
+db.createUser({
     user: 'steve',
     pwd: 'AsecretPassword',
     roles: [{ role: 'readWrite', db:'mycustom_db'}]
-})</code></pre>
+})
+```
 
 Hopefully I don’t need to tell you to not actually use&nbsp;`'AsecretPassword'`&nbsp;as your password…
 
@@ -89,25 +103,31 @@ Hopefully I don’t need to tell you to not actually use&nbsp;`'AsecretPassword'
 
 Then edit the bindIp like so:
 
-<pre class="wp-block-code"><code lang="yaml" class="language-yaml line-numbers"># network interfaces
+```
+# network interfaces
 net:
   port: 27017
 # bindIp: 127.0.0.1  &lt;- change this line to:
-  bindIp: 0.0.0.0</code></pre>
+  bindIp: 0.0.0.0
+```
 
 You also want to scroll down to security and make sure it looks like this, so it’s enabled:
 
-<pre class="wp-block-code"><code lang="yaml" class="language-yaml line-numbers">security:
-  authorization: 'enabled'</code></pre>
+```
+security:
+  authorization: 'enabled'
+```
 
 ## Test Locally {#7c08}
 
 This step is going to be specific to your Spring Boot application, but in most cases, if you already have a local mongo db working, it should be a case of changing either the application.properties file or the application.yml file, to something like this:
 
-<pre class="wp-block-code"><code lang="yaml" class="language-yaml line-numbers">spring:
+```
+spring:
   data:
     mongodb:
-      uri: mongodb://steve:AsecretPassword@ec2-XX-XXX-XXX-XXX.us-west-2.compute.amazonaws.com/mycustom_db</code></pre>
+      uri: mongodb://steve:AsecretPassword@ec2-XX-XXX-XXX-XXX.us-west-2.compute.amazonaws.com/mycustom_db
+```
 
 You can find your EC2 public DNS address in AWS easily in a number of places:<figure class="wp-block-image">
 

@@ -9,7 +9,8 @@ Lets take 3 of the top languages and look if they are pass-by-value or pass-by-r
 
 ## Javascript
 
-<pre class="wp-block-code"><code class="">function changeStuff(a, b, c)
+```
+function changeStuff(a, b, c)
 {
   a = a * 10;
   b.item = "changed";
@@ -24,13 +25,16 @@ changeStuff(num, obj1, obj2);
 
 console.log(num);
 console.log(obj1.item);
-console.log(obj2.item);</code></pre>
+console.log(obj2.item);
+```
 
 This produces:
 
-<pre class="wp-block-code"><code class="">10
+```
+10
 changed
-unchanged</code></pre>
+unchanged
+```
 
 If this was proper pass by reference, num would equal 100
 
@@ -44,7 +48,8 @@ You may then be wondering why obj2 says unchanged. This is because the = operato
 
 ## Java
 
-<pre class="wp-block-code"><code class="">public class PassBy {
+```
+public class PassBy {
     public static void main(String[] args) {
         int a = 1;
         Baloon b = new Baloon("White");
@@ -74,16 +79,19 @@ You may then be wondering why obj2 says unchanged. This is because the = operato
         }
     }
 
-}</code></pre>
+}
+```
 
 The output of this is:
 
-<pre class="wp-block-code"><code class="">1
+```
+1
 White
 White
 1
 Red
-White</code></pre>
+White
+```
 
 **Therefore Java, just like Javascript, is Pass-By-Value (But that value is often a reference).**
 
@@ -91,7 +99,8 @@ White</code></pre>
 
 We can emulate a similar piece of code in python
 
-<pre class="wp-block-code"><code class="">a = 1
+```
+a = 1
 b = {1: "Fred"}
 c = {1: "Fred"}
 
@@ -110,18 +119,20 @@ changeStuff(a, b, c)
 
 print(a)
 print(b)
-print(c)</code></pre>
+print(c)
+```
 
 This produces:
 
-<pre class="wp-block-code"><code class="">1
+```
+1
 {1: 'Fred'}
 {1: 'Fred'}
 
 1
 {1: 'Fred', 2: 'sam'}
 {1: 'Fred'}
-</code></pre>
+```
 
 As with Java, and JavaScript, we can see the same thing. It can&#8217;t be pass by reference, else the value of a would be updated to be 100.
 

@@ -70,7 +70,9 @@ You can use&nbsp;`export TESSDATA_PREFIX=/home/pi/tesseract/tessdata`&nbsp;(repl
 
 You also need to use pip3 to install required packages. Use this command
 
-<pre class="wp-block-code"><code class="">pip3 install opencv-python==3.4.6.27 pip3 install pytesseract pip3 install time pip3 install PySimpleGUI pip3 install Image</code></pre>
+```
+pip3 install opencv-python==3.4.6.27 pip3 install pytesseract pip3 install time pip3 install PySimpleGUI pip3 install Image
+```
 
 ### Get the code {#get-the-code}
 

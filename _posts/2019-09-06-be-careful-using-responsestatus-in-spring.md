@@ -10,7 +10,8 @@ image: /wp-content/uploads/2019/09/4k-wallpaper-art-background-1657151-600x800.j
 ---
 I built a function in a spring-boot app that consisted of a controller, service layer and repository. I wanted to ensure that when a user sent two values to the controller, it would throw an error back to the user, with an appropriate status code without having to pass the data on to the service and have it continue. The aim was to find an annotation that Spring could use to return a specific status code of my choosing with a reason. So, a bit of digging into the documentation and I found @ResponseStatus
 
-<pre class="wp-block-code"><code lang="java" class="language-java line-numbers">Trying @ResponseStatus
+```
+Trying @ResponseStatus
 @ApiOperation("Add a friend")
 @RequestMapping(value = "/addFriends", method = RequestMethod.GET)
 public User addFriends(@RequestParam final String userUsername, @RequestParam final String otherUserUsername) {
@@ -26,7 +27,8 @@ public class UserIsSelfException extends RuntimeException {
         super(message);
     }
 }
-What you'd expect from this is the controller to return a 403 status code:</code></pre><figure class="wp-block-image">
+```
+What you'd expect from this is the controller to return a 403 status code:
 
 ![](https://miro.medium.com/max/1542/0*euT-2mzWKklGdlrQ.png) </figure> 
 
@@ -46,7 +48,8 @@ So…what do we do?
 
 For the people that identified this…let’s call it, “unsusual feature”… Spring introduced @ControllerAdvice like this:
 
-<pre class="wp-block-code"><code lang="java" class="language-java line-numbers">@ControllerAdvice
+```
+@ControllerAdvice
 class ExceptionHandlerAdvice {
 @ExceptionHandler
 @ResponseBody
@@ -54,7 +57,8 @@ ExceptionRepresentation handle(Exception exception) {
  ExceptionRepresentation body = new ExceptionRepresentation(exception.getLocalizedMessage());
  HttpStatus responseStatus = resolveAnnotatedResponseStatus(exception);
  return new ResponseEntity&lt;ExceptionRepresentation>(body, responseStatus);
-}</code></pre>
+}
+```
 
 The problem with this, is that you are then required to implement a lot of the exception handling yourself and furthermore, this advice works accross all controllers on the classpath. I simply wanted to return a status code from one single controller.
 
@@ -62,7 +66,8 @@ The problem with this, is that you are then required to implement a lot of the e
 
 Another solution, and the one that I chose, was to simply make the server return a standard “Internal Server Error” 500 response code by throwing an existing exception. This worked well for my particular use case, because passing two of the same user could be seen as Illegal Arguments. Also, we can still put our own custom response there, which we can parse in an API and handle for accordingly.
 
-<pre class="wp-block-code"><code lang="java" class="language-java line-numbers">@ApiOperation("Add a friend")
+```
+@ApiOperation("Add a friend")
 @RequestMapping(value = "/addFriends", method = RequestMethod.GET)
 public User addFriends(@RequestParam final String userUsername, @RequestParam final String otherUserUsername) {
     if(!userUsername.equals(otherUserUsername)) {
@@ -70,6 +75,7 @@ public User addFriends(@RequestParam final String userUsername, @RequestParam fi
     } else {
         throw new IllegalArgumentException("User attempting to add themselves");
     }
-}</code></pre>
+}
+```
 
 Let me know if this helped!

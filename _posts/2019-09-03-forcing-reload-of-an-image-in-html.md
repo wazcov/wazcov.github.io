@@ -24,28 +24,36 @@ So the trick is to make the browser think that the image you’re trying to load
 
 So where before we had a simple img tag:
 
-<pre class="wp-block-code"><code lang="jsx" class="language-jsx line-numbers">&lt;img style=”width:400px;min-height:130px;” src=”imgs/logo_animated.svg” alt=”fullPage” /></code></pre>
+```&lt;img style=”width:400px;min-height:130px;” src=”imgs/logo_animated.svg” alt=”fullPage” />```
 
 We now remove the src of the image, and give it an ID:
 
-<pre class="wp-block-code"><code lang="jsx" class="language-jsx line-numbers">&lt;img style=”width:400px;min-height:130px;” id=”mainLogo” alt=”fullPage” /></code></pre>
+```
+&lt;img style=”width:400px;min-height:130px;” id=”mainLogo” alt=”fullPage” />
+```
 
 Then, we add a simple jQuery script to the head (you could also do this in plain JS):
 
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript line-numbers">&lt;script>
+```
+&lt;script>
  $(document).ready(function() {
  var url = “imgs/logo_animated.svg?rnd=”+Math.random();
  $(‘#mainLogo’).attr(“src”,url);
  });
- &lt;/script></code></pre>
+ &lt;/script>
+ ```
 
 This script will assign a random number to the end of the image request, which actually does nothing at all, except make the browser think that
 
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript line-numbers">logo_animated.svg?rnd=5234</code></pre>
+```
+logo_animated.svg?rnd=5234
+```
 
 is a different image to
 
-<pre class="wp-block-code"><code lang="javascript" class="language-javascript line-numbers">logo_animated.svg?rnd=8374</code></pre>
+```
+logo_animated.svg?rnd=8374
+```
 
 # It’s Not Perfect {#31f6}
 

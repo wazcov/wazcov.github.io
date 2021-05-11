@@ -14,11 +14,11 @@ Here&#8217;s how you do it.
 
 First SSH into your EC2 (Make sure your security groups are set that you can access port 22, you have the SSH Keys and replace the IP with that of your own EC2)
 
-<pre class="wp-block-code"><code class="">ssh ec2-user@34.243.248.159</code></pre>
+```ssh ec2-user@34.243.248.159```
 
 Next run this command to show your available space
 
-<pre class="wp-block-code"><code class="">lsblk</code></pre><figure class="wp-block-image size-large">
+```lsblk```
 
 <img loading="lazy" width="808" height="284" src="https://devscover.com/wp-content/uploads/2019/12/Screenshot-2019-12-06-at-11.28.22.png" alt="" class="wp-image-237" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.28.22.png 808w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.28.22-600x211.png 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.28.22-300x105.png 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.28.22-768x270.png 768w" sizes="(max-width: 808px) 100vw, 808px" /> <figcaption>lsblk command showing 8gb</figcaption></figure> 
 
@@ -46,7 +46,9 @@ This is great, but we&#8217;re not done yet, since the root volume is 100GB but 
 
 Assuming your root volume is named the same as mine, you&#8217;ll issue this growpart command to tell it to expand it&#8217;s first partition:
 
-<pre class="wp-block-code"><code class=""> sudo growpart /dev/xvda 1</code></pre>
+```
+sudo growpart /dev/xvda 1
+```
 
 Another lsblk command will this time show your expanded partion<figure class="wp-block-image size-large">
 
@@ -56,21 +58,29 @@ Now **WAIT**! You may think you&#8217;ve finished and can happily go ahead and u
 
 You&#8217;ve created a bigger volume, extended your partition but your file system still doesn&#8217;t know about this extra size and will be 8GB. Don&#8217;t believe me? Run this command:
 
-<pre class="wp-block-code"><code class="">df -hT</code></pre><figure class="wp-block-image size-large">
+```
+df -hT
+```
 
 <img loading="lazy" width="1024" height="310" src="https://devscover.com/wp-content/uploads/2019/12/Screenshot-2019-12-06-at-11.42.34-1024x310.png" alt="df -ht 8gb" class="wp-image-243" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.42.34-1024x310.png 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.42.34-600x181.png 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.42.34-300x91.png 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.42.34-768x232.png 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.42.34.png 1224w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 See, the /dev/xvda1 file system is still 8GB. The way to extend this depends on the type. If, like here, yours is XFS, run this command:
 
-<pre class="wp-block-code"><code class="">sudo xfs_growfs /dev/xvda1</code></pre>
+```
+sudo xfs_growfs /dev/xvda1
+```
 
 or if your system shows ext, run:
 
-<pre class="wp-block-code"><code class="">sudo resize2fs /dev/xvda1</code></pre>
+```
+sudo resize2fs /dev/xvda1
+```
 
 Now perform your df command again:
 
-<pre class="wp-block-code"><code class="">df -hT</code></pre><figure class="wp-block-image size-large">
+```
+df -hT
+```
 
 <img loading="lazy" width="1024" height="279" src="https://devscover.com/wp-content/uploads/2019/12/Screenshot-2019-12-06-at-11.44.57-1024x279.png" alt="df -hT success" class="wp-image-244" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.44.57-1024x279.png 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.44.57-600x164.png 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.44.57-300x82.png 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.44.57-768x209.png 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/12/Screenshot-2019-12-06-at-11.44.57.png 1276w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Boom, 100GB.</figcaption></figure> 
 

@@ -12,7 +12,8 @@ So you&#8217;re working on a bugfix locally and you commit your changes. But the
 
 After a while you may get a bunch of commits all related to your bugfix:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">commit aa28d77448f50b66d93912aa172d458f1104f527 (HEAD -> bug-fix01)
+```
+commit aa28d77448f50b66d93912aa172d458f1104f527 (HEAD -> bug-fix01)
 Author: Wayne Covell &lt;wayne.covell@xxx.com>
 Date:   Mon Sep 16 13:35:22 2019 +0100
 
@@ -34,33 +35,41 @@ commit 4e215ff228e061c83a8866963c5f2aebf873b21c (origin/master, master)
 Author: Wayne Covell &lt;wayne.covell@xxx.com>
 Date:   Wed Jul 24 14:03:13 2019 +0100
 
-    formatting</code></pre>
+    formatting
+```
 
 Now if you push this to your repository, then merge the branch, it&#8217;s not going to look very pretty. Plus if you need to revert the change, it&#8217;s a headache as it spans multiple commits.
 
 Here&#8217;s where rebase comes in.
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">git rebase -i HEAD~3</code></pre>
+```
+git rebase -i HEAD~3
+```
 
 This tells git that you want an interactive (manual) rebase, starting at the HEAD and for a depth of 3 commits.
 
 Now you&#8217;ll get some options for your 3 latest commits, in your default editor:
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">pick 0be13c1 Fixing bug
+```
+pick 0be13c1 Fixing bug
 pick 0673586 Really fixing bug
-pick aa28d77 Formatting bugfix</code></pre>
+pick aa28d77 Formatting bugfix
+```
 
 In order to reduce them into one, first change &#8216;pick&#8217; on the latest two commits to &#8216;fixup&#8217; or &#8216;f&#8217; for short. Then, if you want to rename the commit that results, change the top &#8216;pick&#8217; to &#8216;reword&#8217; or &#8216;r&#8217;.
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">r 0be13c1 Fixing bug
+```
+r 0be13c1 Fixing bug
 f 0673586 Really fixing bug
-f aa28d77 Formatting bugfix</code></pre>
+f aa28d77 Formatting bugfix
+```
 
 You&#8217;re then presented with an editor where you can reword &#8216;Fixing bug&#8217; to something more useful like &#8220;Amending method doStuff() to add a String parameter to prevent not doing stuff&#8221;
 
 Now if you do a git log, you&#8217;ll see you have reduced the 3 commits to 1, and gave it a useful description
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">commit 9401745ec178bb87ee25ef6820a9c2548d94278c (HEAD -> bug-fix01)
+```
+commit 9401745ec178bb87ee25ef6820a9c2548d94278c (HEAD -> bug-fix01)
 Author: Wayne Covell &lt;wayne.covell@xxx.com>
 Date:   Mon Sep 16 13:34:42 2019 +0100
 
@@ -70,8 +79,9 @@ commit 4e215ff228e061c83a8866963c5f2aebf873b21c (origin/master, master)
 Author: Wayne Covell &lt;wayne.covell@xxx.com>
 Date:   Wed Jul 24 14:03:13 2019 +0100
 
-    formatting</code></pre>
+    formatting
+```
 
 Note that this only works if you haven&#8217;t already pushed your changes. You can do the same if things are pushed but then you have to force push, which can override anyone else&#8217;s commit since then, which can be dangerous. So use with caution but the command is: 
 
-<pre class="wp-block-code"><code lang="bash" class="language-bash line-numbers">git push -f </code></pre>
+```git push -f ```

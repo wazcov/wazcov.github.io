@@ -27,7 +27,8 @@ What better feature for the background in your new YouTube videos than a live up
 
   * Run the following commands: 
 
-<pre class="wp-block-code"><code class="">sudo apt-get update --fix-missing
+```
+sudo apt-get update --fix-missing
 
 sudo usermod -a -G spi,gpio pi
 
@@ -35,7 +36,9 @@ sudo apt install build-essential python3-dev python3-pip libfreetype6-dev libjpe
 
 sudo apt-get install git
 
-sudo -H pip3 install --upgrade --ignore-installed pip3 setuptools</code></pre>
+sudo -H pip3 install --upgrade --ignore-installed pip3 setuptools
+
+```
 
   * Navigate to where you want to store the code
   * run `git clone git@github.com:wazcov/devscover-youtube.git`

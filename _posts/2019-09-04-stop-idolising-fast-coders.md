@@ -18,11 +18,13 @@ You may think, ah that’s Management not understanding and only valuing fast de
 
 Writing code fast inevitably means that you’re going to use shorter names for functions, arguments, parameters and variable names. Take this code for example:
 
-<pre class="wp-block-code"><code lang="json" class="language-json line-numbers">if(set(“fName”,name)){
+```
+if(set(“fName”,name)){
    ...do stuff
 } else {
    ...
-}</code></pre>
+}
+```
 
 Looking at this, you have no idea what is going on. Are we checking if the name parameter is equal to username? Are we checking if “fName” is set to the variable name? Are we checking the result of a method that sets fName to name? We have no idea without digging into the&nbsp;_set();_&nbsp;method.
 
@@ -30,16 +32,19 @@ This means two things; firstly someone else writing code later down the line, (o
 
 Here’s just one alternative way of writing this piece of code:
 
-<pre class="wp-block-code"><code lang="java" class="language-java line-numbers">try {
+```
+try {
    setFirstNameAttributeToNameField("fName",firstNameFormField);
    ...
 } catch(Exception e) {
    ...
-}</code></pre>
+}
+```
 
 We now no longer return a boolean from a method but instead it just does one thing&nbsp;_setting an atttribute to a field name_&nbsp;and we can see that easily. Anything that would have been in an else is handled by the method throwing an exception. More thoughtful method and parameter names mean you can tell what’s going on.
 
 This code could surely be improved yet again, but just with a minute or two of extra typing, and more importantly thinking, this code is much more readable and maintainable.
+
 
 <div class="wp-block-image">
   <figure class="aligncenter"><img loading="lazy" width="1024" height="682" src="http://devscover.com/wp-content/uploads/2019/09/coder-1024x682.jpeg" alt="" class="wp-image-93" srcset="https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-1024x682.jpeg 1024w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-600x400.jpeg 600w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-300x200.jpeg 300w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder-768x512.jpeg 768w, https://raw.githubusercontent.com/wazcov/wazcov.github.io/master/images/2019/09/coder.jpeg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
